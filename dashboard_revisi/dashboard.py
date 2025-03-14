@@ -3,9 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import calendar
+import os
 
 # Load dataset
-all_df = pd.read_csv("all_data.csv")
+# all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv(os.path.join(os.path.dirname(__file__), "all_data.csv"))
 
 # Konversi kolom tanggal jika ada
 if 'dteday' in all_df.columns:

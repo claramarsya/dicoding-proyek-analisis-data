@@ -1,7 +1,7 @@
 Setup Environment Shell/Terminal
 
-mkdir submission_analisis data
-cd submission_analisis_data
+mkdir submission_analisis data_revisi
+cd submission_analisis data_revisi
 pipenv install
 pipenv shell
 pip install -r requirements.txt
